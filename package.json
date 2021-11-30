@@ -10,15 +10,23 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@apollo/client": "^3.0.0-beta.41",
+    "@react-native-async-storage/async-storage": "^1.15.13",
     "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^6.0.6",
     "@react-navigation/stack": "^6.0.11",
+    "@unimodules/core": "^7.1.2",
+    "apollo-link-context": "^1.0.20",
+    "graphql": "^14.6.0",
+    "native-base": "^3.2.2",
     "react": "17.0.2",
     "react-native": "0.66.3",
     "react-native-gesture-handler": "^1.10.3",
     "react-native-reanimated": "^2.2.4",
     "react-native-safe-area-context": "^3.3.2",
-    "react-native-screens": "^3.9.0"
+    "react-native-screens": "^3.9.0",
+    "react-native-svg": "^12.1.1",
+    "react-native-vector-icons": "^9.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
