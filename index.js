@@ -8,7 +8,7 @@ import { setContext } from 'apollo-link-context';
 import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink, HttpLink } from '@apollo/client';
 
 let httpLink = createHttpLink({
-    uri: `http://192.168.1.116:4000/`
+    uri: `https://rocky-peak-59385.herokuapp.com/`
 });
 
 const outhLink = setContext( async (_, { headers }) => {
